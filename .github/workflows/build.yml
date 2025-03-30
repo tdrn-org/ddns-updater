@@ -25,4 +25,4 @@ jobs:
       - name: Run Build
         run: make clean build test
       - name: Run SonarQube
-        uses: SonarSource/sonarqube-scan-action@v4.1.0
+        uses: SonarSource/sonarqube-scan-action@v5.1.0
