@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/hdecarne-github/ddns-updater/internal/cache"
-	"github.com/hdecarne-github/ddns-updater/internal/logging"
-	"github.com/hdecarne-github/ddns-updater/pkg/address"
+	"github.com/tdrn-org/ddns-updater/internal/cache"
+	"github.com/tdrn-org/ddns-updater/internal/logging"
+	"github.com/tdrn-org/ddns-updater/pkg/address"
 	"github.com/rs/zerolog"
 	"gitlab.com/NebulousLabs/go-upnp"
 )

@@ -15,9 +15,9 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/hdecarne-github/ddns-updater/internal/httpclient"
-	"github.com/hdecarne-github/ddns-updater/internal/logging"
-	"github.com/hdecarne-github/ddns-updater/pkg/address"
+	"github.com/tdrn-org/ddns-updater/internal/httpclient"
+	"github.com/tdrn-org/ddns-updater/internal/logging"
+	"github.com/tdrn-org/ddns-updater/pkg/address"
 	"github.com/rs/zerolog"
 )
 

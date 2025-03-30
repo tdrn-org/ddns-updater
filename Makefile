@@ -1,6 +1,6 @@
 GOPROJECT := ddns-updater
 GOCMDS := $(GOPROJECT)
-GOMODULE := github.com/hdecarne-github/$(GOPROJECT)
+GOMODULE := github.com/tdrn-org/$(GOPROJECT)
 GOMODULE_VERSION :=  $(shell cat version.txt)
 
 GO := $(shell command -v go 2> /dev/null)

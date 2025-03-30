@@ -1,6 +1,6 @@
-[![Downloads](https://img.shields.io/github/downloads/hdecarne-github/ddns-updater/total.svg)](https://github.com/hdecarne-github/ddns-updater/releases)
-[![Build](https://github.com/hdecarne-github/ddns-updater/actions/workflows/build.yml/badge.svg)](https://github.com/hdecarne-github/ddns-updater/actions/workflows/build.yml)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=hdecarne-github_ddns-updater&metric=coverage)](https://sonarcloud.io/summary/new_code?id=hdecarne-github_ddns-updater)
+[![Downloads](https://img.shields.io/github/downloads/tdrn-org/ddns-updater/total.svg)](https://github.com/tdrn-org/ddns-updater/releases)
+[![Build](https://github.com/tdrn-org/ddns-updater/actions/workflows/build.yml/badge.svg)](https://github.com/tdrn-org/ddns-updater/actions/workflows/build.yml)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=tdrn-org_ddns-updater&metric=coverage)](https://sonarcloud.io/summary/new_code?id=tdrn-org_ddns-updater)
 
 ## About DDNS Updater
 ddns-updater is a command line tool to perform dynamic DNS (DDNS) updates. It provides various finder mechanisms to gather the
@@ -16,7 +16,7 @@ The following DNS backends are supported:
 * Web (invoking a web based service to update DNS)
 
 ### Installation
-To install ddns-updater you have to download a suitable [release archive](https://github.com/hdecarne-github/ddns-updater/releases) and extract it or build it from source by cloning the repository and issueing a simple
+To install ddns-updater you have to download a suitable [release archive](https://github.com/tdrn-org/ddns-updater/releases) and extract it or build it from source by cloning the repository and issueing a simple
 ```
 make build
 ```
@@ -24,7 +24,7 @@ To build ddns-updater, Go version 1.20 or higher is required. The resulting bina
 Copy the either extracted or built tool binary to a location of your choice (e.g. /usr/local/bin/).
 
 ### Configuration
-The ddns-updater tool retrieves most of its configuration from a configuration file. See [ddns-updater.toml](https://github.com/hdecarne-github/ddns-updater/blob/master/ddns-updater.toml) as a reference and adapt it to your need. The default location of the
+The ddns-updater tool retrieves most of its configuration from a configuration file. See [ddns-updater.toml](https://github.com/tdrn-org/ddns-updater/blob/master/ddns-updater.toml) as a reference and adapt it to your need. The default location of the
 configuration file is /etc/ddns-updater/ddns-updater.toml. An explicit location
 can be given via the --config command line option (see next section).
 
@@ -49,8 +49,8 @@ ddns-updater [--verbose|--debug] [--config=<config file>] [--pretend] [--force] 
 ```
 
 ### Changelog:
-See [CHANGELOG.md](https://github.com/hdecarne-github/ddns-updater/blob/master/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/tdrn-org/ddns-updater/blob/master/CHANGELOG.md).
 
 ### License
 This project is subject to the the MIT License.
-See [LICENSE](https://github.com/hdecarne-github/ddns-updater/blob/master/LICENSE) information for details.
+See [LICENSE](https://github.com/tdrn-org/ddns-updater/blob/master/LICENSE) information for details.

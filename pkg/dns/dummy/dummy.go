@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/hdecarne-github/ddns-updater/internal/logging"
-	"github.com/hdecarne-github/ddns-updater/pkg/dns"
+	"github.com/tdrn-org/ddns-updater/internal/logging"
+	"github.com/tdrn-org/ddns-updater/pkg/dns"
 	"github.com/rs/zerolog"
 )
 

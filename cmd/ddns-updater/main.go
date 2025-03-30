@@ -7,7 +7,7 @@
 
 package main
 
-import "github.com/hdecarne-github/ddns-updater/internal/ddnsupdater"
+import "github.com/tdrn-org/ddns-updater/internal/ddnsupdater"
 
 func main() {
 	_ = ddnsupdater.Run()

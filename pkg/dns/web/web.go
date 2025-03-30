@@ -14,10 +14,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/hdecarne-github/ddns-updater/internal/buildinfo"
-	"github.com/hdecarne-github/ddns-updater/internal/httpclient"
-	"github.com/hdecarne-github/ddns-updater/internal/logging"
-	"github.com/hdecarne-github/ddns-updater/pkg/dns"
+	"github.com/tdrn-org/ddns-updater/internal/buildinfo"
+	"github.com/tdrn-org/ddns-updater/internal/httpclient"
+	"github.com/tdrn-org/ddns-updater/internal/logging"
+	"github.com/tdrn-org/ddns-updater/pkg/dns"
 	"github.com/rs/zerolog"
 )
 
@@ -92,7 +92,7 @@ func (u *webUpdater) invokeURL(url string) error {
 	if err != nil {
 		return fmt.Errorf("failed to construct service request (cause: %v)", err)
 	}
-	userAgent := fmt.Sprintf("ddns-updater/%s (%s; %s) %s https://hdecarne-github.github.io/ddns-updater/", buildinfo.Version(), runtime.GOOS, runtime.GOARCH, buildinfo.Timestamp())
+	userAgent := fmt.Sprintf("ddns-updater/%s (%s; %s) %s https://tdrn-org.github.io/ddns-updater/", buildinfo.Version(), runtime.GOOS, runtime.GOARCH, buildinfo.Timestamp())
 	req = httpclient.ReqUserAgent(req, userAgent)
 	req = httpclient.ReqAuthorization(req, u.cfg.Username, u.cfg.Password)
 	rsp, err := client.Do(req)

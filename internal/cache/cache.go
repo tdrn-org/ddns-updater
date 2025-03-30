@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/hdecarne-github/ddns-updater/internal/logging"
+	"github.com/tdrn-org/ddns-updater/internal/logging"
 	"github.com/rs/zerolog"
 )
 

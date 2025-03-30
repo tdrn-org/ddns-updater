@@ -10,7 +10,7 @@ package web
 import (
 	"testing"
 
-	"github.com/hdecarne-github/ddns-updater/pkg/address"
+	"github.com/tdrn-org/ddns-updater/pkg/address"
 	"github.com/stretchr/testify/require"
 )
 

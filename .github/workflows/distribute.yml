@@ -15,14 +15,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up Go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           go-version-file: 'go.mod'
           check-latest: true
           cache: false
       - name: Set up Caching for Linux
         if: runner.os == 'Linux'
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/.cache/go-build
@@ -32,7 +32,7 @@ jobs:
             ${{ runner.os }}-go-
       - name: Set up Caching for macOS
         if: runner.os == 'macOS'
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/Library/Caches/go-build
@@ -42,7 +42,7 @@ jobs:
             ${{ runner.os }}-go-
       - name: Set up Caching for Windows
         if: runner.os == 'Windows'
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~\AppData\Local\go-build

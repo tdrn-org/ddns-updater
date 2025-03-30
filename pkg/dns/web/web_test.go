@@ -11,7 +11,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/hdecarne-github/ddns-updater/pkg/dns"
+	"github.com/tdrn-org/ddns-updater/pkg/dns"
 	"github.com/stretchr/testify/require"
 )
 
