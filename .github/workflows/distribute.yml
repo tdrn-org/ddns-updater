@@ -22,7 +22,7 @@ jobs:
       - name: Run Build
         run: make dist
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ runner.os }}-distribute-artifacts
           path: build/dist
