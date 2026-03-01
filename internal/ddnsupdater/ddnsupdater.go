@@ -1,6 +1,6 @@
 // ddnsupdater.go
 //
-// Copyright (C) 2023-2024 Holger de Carne
+// Copyright (C) 2023-2026 Holger de Carne
 //
 // This software may be modified and distributed under the terms
 // of the MIT license.  See the LICENSE file for details.
@@ -16,6 +16,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/alecthomas/kong"
+	"github.com/rs/zerolog"
 	"github.com/tdrn-org/ddns-updater/internal/buildinfo"
 	"github.com/tdrn-org/ddns-updater/internal/cache"
 	"github.com/tdrn-org/ddns-updater/internal/logging"
@@ -27,7 +28,6 @@ import (
 	"github.com/tdrn-org/ddns-updater/pkg/dns/dummy"
 	"github.com/tdrn-org/ddns-updater/pkg/dns/route53"
 	dnsweb "github.com/tdrn-org/ddns-updater/pkg/dns/web"
-	"github.com/rs/zerolog"
 )
 
 const defaultConfigFile = "/etc/ddns-updater/ddns-updater.toml"
