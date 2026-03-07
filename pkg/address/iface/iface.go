@@ -1,6 +1,6 @@
 // iface.go
 //
-// Copyright (C) 2023-2024 Holger de Carne
+// Copyright (C) 2023-2026 Holger de Carne
 //
 // This software may be modified and distributed under the terms
 // of the MIT license.  See the LICENSE file for details.
@@ -12,9 +12,9 @@ import (
 	"net"
 	"path"
 
+	"github.com/rs/zerolog"
 	"github.com/tdrn-org/ddns-updater/internal/logging"
 	"github.com/tdrn-org/ddns-updater/pkg/address"
-	"github.com/rs/zerolog"
 )
 
 type IFaceFinderConfig struct {

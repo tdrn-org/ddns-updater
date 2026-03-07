@@ -1,6 +1,6 @@
 // ddnsupdater_test.go
 //
-// Copyright (C) 2023-2024 Holger de Carne
+// Copyright (C) 2023-2026 Holger de Carne
 //
 // This software may be modified and distributed under the terms
 // of the MIT license.  See the LICENSE file for details.
@@ -21,16 +21,21 @@ func TestReadConfig(t *testing.T) {
 	require.NotNil(t, cfg)
 }
 
+const ddnsUpdaterCmd string = "ddns-updater"
+const ddnsUpdaterConfigFlag string = "--config=./testdata/ddns-updater.toml"
+const ddnsUpdaterPretendFlag string = "--pretend"
+const ddnsUpdaterResetCacheFlag string = "--reset-cache"
+
 func TestRunUpdate(t *testing.T) {
-	os.Args = []string{"ddns-updater", "--config=./testdata/ddns-updater.toml", "--pretend", "--reset-cache"}
+	os.Args = []string{ddnsUpdaterCmd, ddnsUpdaterConfigFlag, ddnsUpdaterPretendFlag, ddnsUpdaterResetCacheFlag}
 	err := Run()
 	require.NoError(t, err)
 
-	os.Args = []string{"ddns-updater", "--config=./testdata/ddns-updater.toml"}
+	os.Args = []string{ddnsUpdaterCmd, ddnsUpdaterConfigFlag}
 	err = Run()
 	require.NoError(t, err)
 
-	os.Args = []string{"ddns-updater", "--config=./testdata/ddns-updater.toml"}
+	os.Args = []string{ddnsUpdaterCmd, ddnsUpdaterConfigFlag}
 	err = Run()
 	require.NoError(t, err)
 }

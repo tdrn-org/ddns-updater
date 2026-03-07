@@ -1,6 +1,6 @@
 // route53.go
 //
-// Copyright (C) 2023-2024 Holger de Carne
+// Copyright (C) 2023-2026 Holger de Carne
 //
 // This software may be modified and distributed under the terms
 // of the MIT license.  See the LICENSE file for details.
@@ -16,9 +16,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/route53"
 	"github.com/aws/aws-sdk-go-v2/service/route53/types"
+	"github.com/rs/zerolog"
 	"github.com/tdrn-org/ddns-updater/internal/logging"
 	"github.com/tdrn-org/ddns-updater/pkg/dns"
-	"github.com/rs/zerolog"
 )
 
 const Name = "dns_route53"

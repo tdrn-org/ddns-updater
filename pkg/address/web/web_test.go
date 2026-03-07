@@ -1,6 +1,6 @@
 // web_test.go
 //
-// Copyright (C) 2023-2024 Holger de Carne
+// Copyright (C) 2023-2026 Holger de Carne
 //
 // This software may be modified and distributed under the terms
 // of the MIT license.  See the LICENSE file for details.
@@ -10,8 +10,8 @@ package web
 import (
 	"testing"
 
-	"github.com/tdrn-org/ddns-updater/pkg/address"
 	"github.com/stretchr/testify/require"
+	"github.com/tdrn-org/ddns-updater/pkg/address"
 )
 
 func TestWebFinder(t *testing.T) {
