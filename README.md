@@ -20,7 +20,7 @@ To install ddns-updater you have to download a suitable [release archive](https:
 ```
 make build
 ```
-To build ddns-updater, Go version 1.20 or higher is required. The resulting binary will be written to **./build/bin**.
+To build ddns-updater, Go version 1.26 or higher is required. The resulting binary will be written to **./build/bin**.
 Copy the either extracted or built tool binary to a location of your choice (e.g. /usr/local/bin/).
 
 ### Configuration
