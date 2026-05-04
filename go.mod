@@ -3,7 +3,7 @@ module github.com/tdrn-org/ddns-updater
 go 1.26
 
 require (
-	github.com/mattn/go-isatty v0.0.21
+	github.com/mattn/go-isatty v0.0.22
 	github.com/stretchr/testify v1.11.1
 )
 
