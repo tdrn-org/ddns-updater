@@ -28,4 +28,4 @@ jobs:
         run: make clean build test
       - name: Run SonarQube
         if: ${{ env.SONAR_TOKEN != '' }}
-        uses: SonarSource/sonarqube-scan-action@v8.2.0
+        uses: SonarSource/sonarqube-scan-action@v8.2.1
