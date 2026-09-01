@@ -8,9 +8,9 @@ require (
 )
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.45.0 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.0 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.0 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.45.1 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.1 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.1 // indirect
 	github.com/aws/smithy-go v1.28.1 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
 	gitlab.com/NebulousLabs/fastrand v0.0.0-20181126182046-603482d69e40 // indirect
@@ -24,7 +24,7 @@ require (
 require (
 	github.com/BurntSushi/toml v1.6.0
 	github.com/alecthomas/kong v1.16.1
-	github.com/aws/aws-sdk-go-v2/credentials v1.19.37
+	github.com/aws/aws-sdk-go-v2/credentials v1.20.1
 	github.com/aws/aws-sdk-go-v2/service/route53 v1.67.0
 	github.com/rs/zerolog v1.35.1
 	gitlab.com/NebulousLabs/go-upnp v0.0.0-20211002182029-11da932010b6
