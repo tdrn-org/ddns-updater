@@ -14,8 +14,8 @@ github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.6 h1:CqL8NN3p4I0JTwwV5M
 github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.6/go.mod h1:exdJ32hMqXl0Wyo6NwqEC5yIhtua3+PDaKE8P29m4qE=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.6 h1:FpBq24TG6WVSObTNhQOv7Q0088rounUUlwn3zlNItkM=
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.6/go.mod h1:ONzdPVYC95oBOu0VWNEsKEntcoemP3xVKjT+qWml1s4=
-github.com/aws/aws-sdk-go-v2/service/route53 v1.70.3 h1:K4hKRgoGTFzhIqEUSWtE1Z6ze/vnx0f5r+9CN9Pmzlg=
-github.com/aws/aws-sdk-go-v2/service/route53 v1.70.3/go.mod h1:XdaSSHqUBF5ZX1y+QYwRB0n6cgg6ojbZsbNfBCafdg0=
+github.com/aws/aws-sdk-go-v2/service/route53 v1.70.4 h1:nTaA+LXUZpXp2NN1pnnxPp/jk4IiF4Uam1/d/qBvdPQ=
+github.com/aws/aws-sdk-go-v2/service/route53 v1.70.4/go.mod h1:GAOtBSbDvuCTWKyLn3yQVGtrqWxJhRoSrNi9iCE+B7w=
 github.com/aws/smithy-go v1.28.5 h1:OqbqKtzY9NUnr2yAe9+hiTdFb20tNaK/lI0PMOGXX9k=
 github.com/aws/smithy-go v1.28.5/go.mod h1:YE2RhdIuDbA5E5bTdciG9KrW3+TiEONeUWCqxX9i1Fc=
 github.com/hexops/gotextdiff v1.0.3 h1:gitA9+qJrrTCsiCl7+kh75nPqQt1cx4ZkudSTLoUqJM=
